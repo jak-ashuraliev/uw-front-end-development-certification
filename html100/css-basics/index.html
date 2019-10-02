@@ -5,19 +5,60 @@
         <title>Home</title>
         <style>
             h1{
-                color: purple;
+                color: red;
+                border-style: solid;
+                border-width: 1px;
+                border-color: red;
             }
             p{
                 color: red;
             }
+            p.important{
+                width: 75%;
+            }
             body{
                 background-color: dodgerblue;
+            }
+            .purple-text{
+                color: rgb(0,0,255);
+            }
+            .important{
+                font-weight: bold;
+            }
+            #lead-paragraph{
+                color: yellow;
+                font-weight: bold;
+            }
+            .important:hover{
+                background-color: #0000ff;
+            }
+            a[href="http://storm.wnba.com"]{
+                background-color: lightgreen;
+                padding: 1rem;
+            }
+            a[href="https://imagecomics.com"]{
+                background-color: lightgreen;
+            }
+            img{
+                border-style: dashed;
+                border-color: orange;
+                border-width: 2px;
+                width: 25%;
             }
         </style>
     </head>
     <body>
         <h1>Welcome!</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id velit architecto labore eius numquam voluptates nostrum deserunt ullam! Nihil blanditiis consequuntur magni placeat natus ipsum necessitatibus maiores.</p>
+        <p class="purple-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id velit architecto labore eius numquam voluptates nostrum deserunt ullam! Nihil blanditiis consequuntur magni placeat natus ipsum necessitatibus maiores.</p>
+
+        <p class="important purple-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id velit architecto labore eius numquam voluptates nostrum deserunt ullam! Nihil blanditiis consequuntur magni placeat natus ipsum necessitatibus maiores.</p>
+
+        <p id="lead-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id velit architecto labore eius numquam voluptates nostrum deserunt ullam! Nihil blanditiis consequuntur magni placeat natus ipsum necessitatibus maiores.</p>
+
+        <a href="http://storm.wnba.com">National WNBA Champions, Seattle Storm</a>
+        <a href="https://imagecomics.com">Check out some awesome independant comics</a>
+
+        <img src="https://cdn.pixabay.com/photo/2019/09/29/08/57/sea-4512642_1280.jpg" alt="An awesome waves of the ocean">
     </body>
 
 </html>
