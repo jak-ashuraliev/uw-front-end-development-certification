@@ -38,11 +38,11 @@ header,
     justify-content: flex-end;
     align-items: center;
 }
-.logo {
+header .logo {
     width: 20%;
     padding: 1.25rem 0;
 }
-.logo,
+header .logo,
 .top_contact_info {
     margin-right: auto;
 }
@@ -72,7 +72,7 @@ header,
     font-size: 0.875rem;
     letter-spacing: 0.0625rem;
     position: relative;
-    color: #444610;
+    color: #777b1a;
     font-weight: 500;
 }
 .nav_links li a::after {
@@ -105,12 +105,15 @@ article p {
     margin: 1rem;
     text-transform: uppercase;
 }
+article p {
+    color: #888;
+}
 /* ======================== HERO SECTION  ============================ */
 .hero_bg {
     background-image: linear-gradient(
                         rgba(20,20,20, .5), 
                         rgba(20,20,20, .5)), 
-    url(https://images.pexels.com/photos/1618898/pexels-photo-1618898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    url(/projects/zaytuna_website/images/hero_bg.jpeg);
     background-position: center;
     background-size: cover;
     height: 70vh;
@@ -157,7 +160,7 @@ button {
 button:hover{
     background: #777b1a;
 }
-/* ================= OUR AUTHENTIC DISHES ================= */
+/* ================= AUTHENTIC DISHES ================= */
 .content_wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -193,6 +196,9 @@ button:hover{
 .right_content p:nth-child(2) {
     text-transform: uppercase;
 }
+.right_content p:nth-child(3) {
+    color: #888;
+}
 /* ================= SIGNATURE DISHES ================= */
 .menu_wrapper {
     width: 60%;
@@ -223,3 +229,66 @@ button:hover{
     position: relative;
     top: -1rem;
 }
+.item_detail {
+    color: #888;
+    font-size: 0.875rem;
+}
+/* ================= AUTHENTIC FLAVORS ================= */
+.right_content button {
+    margin-left: 1rem;
+}
+article.spacing {
+    margin-top: 34%;
+}
+/* ================= PHOTO GALLERY ================= */
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery figure {
+    padding: 0.25rem;
+}
+.gallery figure img {
+    width: 100%;
+}
+.gallery figcaption {
+    padding: 1rem 0;
+}
+.gallery figcaption p {
+    color: #888;
+    padding: 0.725rem 0;
+    font-size: 0.875rem;
+}
+.section_bg {
+    background-image: url(/projects/zaytuna_website/images/tomato-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    float: left;
+    left: 0;
+    /* z-index: -1; */
+    margin-top: 1rem;
+}
+/* ================= FOOTER ================= */
+footer {
+    position: absolute;
+    left: 0;
+    height: 20%;
+    background: #777b1a;
+    color: #fff;
+}
+footer .logo {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    /* padding: 4rem 0; */
+    /* padding: 4rem 0; */
+}
+footer nav li {
+    display: inline-block;
+}
+footer nav li a {
+    color: #fff;
+} 
