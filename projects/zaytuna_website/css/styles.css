@@ -276,7 +276,7 @@ footer {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 30%;
+    height: 35%;
     margin-top: 2.75rem;
     display: flex;
     flex-direction: column;
@@ -289,21 +289,21 @@ footer {
     background: #777b1a;
 }
 footer .logo {
-    width: 50%;
-    margin: 0 auto;
-    display: block;
-    /* padding: 4rem 0; */
-    /* padding: 4rem 0; */
+    width: 20%;
+    margin: auto;
 }
 footer nav li {
     display: inline-block;
 }
 footer nav li a {
-    color: #333;
     font-size: 0.875rem;
-    padding: 1rem;
+    padding: 0.475rem;
     text-decoration: none;
+    color: #eee;
 } 
+footer nav li a:hover {
+    color: #f07f29;
+}
 footer small {
-    color: #333;
+    color: #eee;
 }
