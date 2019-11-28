@@ -12,7 +12,7 @@
     color: #777b1a;
 }
 html {
-    background-image: url('https://mediterraneanblu.com/wp-content/uploads/2015/06/paper_bg.png');
+    background-image: url('/projects/zaytuna_website/images/paper_bg.png');
     background-color: rgba(255,255,255,0.4);
     background-blend-mode: lighten;
 }
@@ -160,7 +160,7 @@ button {
 button:hover{
     background: #777b1a;
 }
-/* ================= AUTHENTIC DISHES ================= */
+/* ================= AUTHENTIC DISHES / ABOUT US ================= */
 .content_wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -171,7 +171,7 @@ button:hover{
     grid-area: overlap;
 }
 .left_content img {
-    width: 55%;
+    width: 52%;
 }
 .right_content {
     grid-area: overlap;
@@ -233,7 +233,7 @@ button:hover{
     color: #888;
     font-size: 0.875rem;
 }
-/* ================= AUTHENTIC FLAVORS ================= */
+/* ================= AUTHENTIC FLAVORS / ABOUT US ================= */
 .right_content button {
     margin-left: 1rem;
 }
