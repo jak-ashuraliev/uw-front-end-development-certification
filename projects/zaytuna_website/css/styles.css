@@ -39,8 +39,7 @@ header,
     align-items: center;
 }
 header .logo {
-    width: 20%;
-    padding: 1.25rem 0;
+    padding: 0.725rem 0;
 }
 header .logo,
 .top_contact_info {
@@ -130,7 +129,7 @@ article p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
 }
 .hero_heading p:nth-child(1) {
@@ -144,7 +143,6 @@ article p {
 .hero_heading .call-now {
     font-size: 1.5rem;
     color: #fff;
-    font-weight: 500;
 }
 button {
     background: #f07f29;
@@ -290,7 +288,7 @@ footer {
     background: #777b1a;
 }
 footer .logo {
-    width: 20%;
+    /* width: 20%; */
     margin: auto;
 }
 footer nav li {
