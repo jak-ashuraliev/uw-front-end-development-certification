@@ -254,6 +254,11 @@ button:hover {
     color: #888;
 }
 
+.video-section iframe {
+    width: 560px;
+    height: 315px;
+}
+
 /* ================= SIGNATURE DISHES ================= */
 .menu_wrapper {
     width: 60%;
