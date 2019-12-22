@@ -12,7 +12,14 @@
     font-family: 'Montserrat', sans-serif;
     color: #777b1a;
 }
-
+.hide-skip {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+.hide-skip:focus {
+    left: 0;
+}
 html {
     background-image: url('../images/paper_bg.png');
     background-color: rgba(255, 255, 255, 0.4);
