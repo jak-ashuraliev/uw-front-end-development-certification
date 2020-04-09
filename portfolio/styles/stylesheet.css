@@ -191,10 +191,13 @@ figcaption {
 
 /* =================== CONTACT ===================*/
 
-.contact-wrapper img {
+label,
+input,
+textarea {
   display: block;
-  width: 60%;
-  margin: 0 auto;
+  width: 50%;
+  margin: auto;
+  padding: .5rem 0;
 }
 
 
